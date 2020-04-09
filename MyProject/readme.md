@@ -1,9 +1,15 @@
+# Warning
+.gitignore、.laradock/.gitignoreから.envのコメントアウトを外して下さい
 
+Databaseのデータは.laradock/.data に入っています。適宜.gitignoreに追記して下さい。
 
+vendorは無いのでcomposer install して下さい
+
+Web
 http://localhost:8888/
 
-
-http://localhost:8082/index.php
+phpmyadmin
+http://localhost:8082/
 
 
 参考
